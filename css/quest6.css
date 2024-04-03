@@ -1,0 +1,29 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+    animation: rotate 6s linear infinite;
+   
+}
+.container{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes rotate {
+    0%{ background-color: yellow; }
+    10%{ background-color: black;  }
+    25%{ background-color: deeppink;  }
+    45% { background-color: gray;  }
+    55%{ background-color:lightgreen;  }
+    75%{ background-color: whitesmoke;  }
+    80%{ background-color: skyblue;  }
+    100%{ background-color: blueviolet; transform: rotate(360deg);}
+
+
+
+
+}
+

@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 100vh;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: darkblue;
+}
+
+.box:hover{
+    background-color: chartreuse;
+    transition: 1s;
+
+}
+.box:hover{
+    transform: scale(1.5);  
+    transition: 1s linear; 
+}

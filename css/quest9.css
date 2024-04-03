@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(14, 14, 160);
+    animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+    0% {
+		transform: scale(0.95);
+		
+	}
+
+	50% {
+		transform: scale(1.5);
+		
+	}
+
+	100% {
+		transform: scale(0.95);
+		
+	}
+}

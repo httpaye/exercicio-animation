@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 100vh;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: darkblue;
+    animation: move 4s ease-in-out ;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translate(500px);
+    }
+}
