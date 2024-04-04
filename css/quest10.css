@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+   
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    animation: logo 3s ;
+   
+}
+
+@keyframes logo {
+    0% {
+        transform: translate(0rem, 0ex);
+        width: 200px;
+        height: 200px;
+    
+      }
+      100% {
+        transform: translate(-29rem, -27ex);
+        width: 70px;
+        height: 70px;
+
+        
+      }
+    }
