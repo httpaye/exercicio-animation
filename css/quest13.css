@@ -1,0 +1,79 @@
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    margin-right: 4px;
+    background-color: plum;
+    animation: box-1 2s infinite linear;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    margin-right: 4px;
+    background-color: plum;
+    animation: box-2 4s infinite linear;
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    margin-right: 4px;
+    background-color:plum;
+    animation: box-3 6s infinite linear;
+}
+
+@keyframes box-1 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(-80px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(80px); 
+    }
+
+}
+
+@keyframes box-2 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(-80px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(80px); 
+    }
+}
+
+@keyframes box-3 {
+    0%{
+        transform: translateY(0px);
+    }
+
+    25%{
+        transform: translateY(-80px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(80px); 
+    }
+}

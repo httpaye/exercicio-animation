@@ -1,0 +1,49 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:lightpink;
+    animation: circle 4s linear infinite ;
+
+
+
+}
+
+@keyframes circle {
+    0% {
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(50vh,80vh)
+    }
+    40%{
+        transform: translate(80vh,-2vh)
+    }
+
+    65%{
+        transform: translate(95vh,80vh)
+    }
+
+    75%{
+        transform: translate(120vh,-4vh)
+    }
+    85%{
+        transform: translate(140vh,80vh)
+    }
+
+    100%{
+        transform: translate(180vh,-2vh)
+    }
+}
+
+
+
+  
+
+  
+  
+
+
+
+

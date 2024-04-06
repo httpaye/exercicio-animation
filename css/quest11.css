@@ -8,7 +8,7 @@
     width: 200px;
     height: 200px;
     background-color: rgb(14, 14, 160);
-    animation: pulse 3s infinite;
+    animation: pulse 2s infinite;
   
 }
 
@@ -17,10 +17,10 @@
     transform: scale(1); rotate: 0deg;
  }
  50%{
-    transform: scale(2);
+    transform: scale(2) ; rotate: 180deg;
 
  }
  100%{
-    transform: scale(1); rotate: 360deg;
+    transform: scale(1); rotate: 180deg;
  }
 }
