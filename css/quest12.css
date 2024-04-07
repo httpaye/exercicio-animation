@@ -5,6 +5,14 @@
     outline: 0;
    font-family: monospace;
 }
+.BTN button{
+    width: 45px;
+    margin: 22px;
+    background-color: white;
+    border-radius: 15px;
+    border-color: blueviolet;
+    color: blueviolet;
+  }
 .content{
     height: 100vh;
     display: flex;
@@ -29,6 +37,7 @@ h1{
 
 input{
     margin-bottom: 10px;
+    padding: 6px;
 }
 button{
   background-color: white;

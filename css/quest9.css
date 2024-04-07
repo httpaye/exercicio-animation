@@ -11,6 +11,17 @@
     background-color: rgb(14, 14, 160);
     animation: pulse 4s infinite;
 }
+button{
+    width: 45px;
+    margin: 22px;
+    background-color: white;
+    border-radius: 15px;
+    border-color: blueviolet;
+    color: blueviolet;
+}
+.BTN{
+    margin: 40px;
+}
 
 @keyframes pulse {
     0% {

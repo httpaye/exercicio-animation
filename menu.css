@@ -14,6 +14,10 @@ background-color: blueviolet;
  margin: 25px;
  text-align: center;
 }
+.qst:hover{
+  transform: scale(1.2);  
+ 
+}
 
 
 .qst h1{
